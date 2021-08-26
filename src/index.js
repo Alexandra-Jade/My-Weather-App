@@ -3,20 +3,35 @@
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 84;
+  
+  celsiusLink.classList.remove("C");
+  fahrenheitLink.classList.add("F");
+  
+  let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(fahrenheiTemperature);
 }
 
 function convertToCelsius(event) {
   event.preventDefault();
+  
+  celsiusLink.classList.add("C");
+  fahrenheitLink.classList.remove("F");
+  
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 29;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
+
+let celsiusTemperature = null;
+
+
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", convertToCelsius);
+
+
 
 //search function//
 function showTemperature(response) {
@@ -44,6 +59,7 @@ function showTemperature(response) {
    `http://openweathermap.org/img/wn/${response.data.weather[0].description}@2x.png`
  );
 
+  celsiusTemperature = response.data.main.temp;
 
   document.querySelector("#high-Temp").innerHTML = Math.round(
     response.data.main.temp_max
@@ -147,3 +163,5 @@ if (hours < 10) {
 }
 
 h4.innerHTML = ` ${hours} : ${minutes}`;
+
+

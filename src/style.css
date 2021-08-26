@@ -117,26 +117,45 @@ body {
   font-weight: bold;
   z-index: 1;
 }
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a {
+  color: #5165d6;
+}
 .cAndF {
   font-size: small;
   position: absolute;
-  color: black;
-  margin-top: 60px;
-  margin-left: 225px;
-  transform: rotate(-270deg);
+  margin-top: 198px;
+  margin-left: -135px;
   z-index: 1;
+
 }
 
 .C {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
+color: black;
+cursor:default;
+text-decoration:none;
 }
 
-.F {
-  text-decoration: none;
-  color: black;
+.C:hover {
+     color: black;
+
+text-decoration:none;
 }
+.F {
+ color: black;
+ text-decoration:none;
+}
+
+.F:hover {
+color:black;
+text-decoration:none;
+}
+
+
 .forecast {
   position: absolute;
   margin-left: 115px;
