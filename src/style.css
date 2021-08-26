@@ -6,6 +6,7 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   margin: 0 auto;
+
 }
 
 .rounded-pill {
@@ -110,8 +111,8 @@ body {
   position: absolute;
   margin-top: -70px;
   left: 67.5%;
-  text-shadow: 2px 2px 5px #c9896b;
-  color: #fceae6;
+  text-shadow: 2px 2px 5px #462f24;
+  color: #faede8;
   font-size: 100px;
   font-weight: bold;
   z-index: 1;
@@ -280,8 +281,9 @@ body {
 
 .iconpink {
   position: absolute;
-  margin-top: -18px;
-  margin-left: 35px;
+  margin-top: -23.5px;
+  margin-left: 26px;
+  font-size: x-large;
   width: 100px;
 }
 

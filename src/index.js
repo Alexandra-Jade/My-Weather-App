@@ -28,6 +28,23 @@ function showTemperature(response) {
   let h2 = document.querySelector("h2");
   h2.innerHTML = ` <br/> ${city} <br/>
   -.-.--- --`;
+  let iconElement = document.querySelector("#iconElement");
+  iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+  iconElement.setAttribute(
+      "alt",
+      `http://openweathermap.org/img/wn/${response.data.weather[0].description}@2x.png`
+  );
+  let iconNextToPicture = document.querySelector("#iconNextToPicture");
+  iconNextToPicture.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+ iconNextToPicture.setAttribute(
+   "alt",
+   `http://openweathermap.org/img/wn/${response.data.weather[0].description}@2x.png`
+ );
+
+
   document.querySelector("#high-Temp").innerHTML = Math.round(
     response.data.main.temp_max
   );
@@ -42,6 +59,8 @@ function showTemperature(response) {
   document.querySelector("#humidity").innerHTML = Math.round(
     response.data.main.humidity
   );
+  
+    
 }
 
 let units = "metric";
