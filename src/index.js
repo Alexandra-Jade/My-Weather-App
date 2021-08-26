@@ -41,7 +41,7 @@ function showTemperature(response) {
     response.data.main.temp
   );
   let h2 = document.querySelector("h2");
-  h2.innerHTML = ` <br/> ${city} <br/>
+  h2.innerHTML = ` <br/><br/>${city} <br/>
   -.-.--- --`;
   let iconElement = document.querySelector("#iconElement");
   iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
