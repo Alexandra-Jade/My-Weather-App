@@ -234,7 +234,7 @@ text-decoration:none;
 
 .align-items-center-row-emoji-day1 {
   text-align: left;
-  margin-top: -290px;
+  margin-top: -320px;
   margin-left: 3.5%;
 }
 
@@ -243,6 +243,7 @@ text-decoration:none;
   text-align: left;
   margin-top: 3px;
   margin-left: 3.5%;
+  font-size: 13px;
 }
 
 .align-items-center-row-weekday-day1 {
@@ -251,14 +252,16 @@ text-decoration:none;
   margin-top: 3px;
   margin-left: 3.5%;
   margin-bottom: 20px;
-  font-size: 10px;
+  font-size: 12px;
 }
+
 
 .align-items-center-row-emoji-day2 {
   position: relative;
   text-align: left;
   margin-top: 10px;
   margin-left: 3.5%;
+  width:42px;
 }
 
 .align-items-center-row-temp-day2 {
@@ -266,6 +269,7 @@ text-decoration:none;
   text-align: left;
   margin-top: 3px;
   margin-left: 3.5%;
+  font-size: 13px;
 }
 
 .align-items-center-row-weekday-day2 {
@@ -274,7 +278,7 @@ text-decoration:none;
   margin-top: 3px;
   margin-left: 3.5%;
   margin-bottom: 20px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .emoji-futureday {
@@ -289,6 +293,7 @@ text-decoration:none;
   text-align: left;
   margin-top: 0px;
   margin-left: 3.5%;
+  font-size: 13px;
 }
 
 .weekday-futureday {
@@ -296,7 +301,7 @@ text-decoration:none;
   text-align: left;
   margin-top: 0px;
   margin-left: 3.5%;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .iconpurple {

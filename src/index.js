@@ -165,5 +165,3 @@ if (hours < 10) {
 h4.innerHTML = ` ${hours} : ${minutes}`;
 
 
-//quotes//
-
