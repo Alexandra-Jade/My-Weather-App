@@ -169,34 +169,7 @@ h4.innerHTML = ` ${hours} : ${minutes}`;
 
 function showQuote(event) {
   console.log(event);
-  
+  let quote = document.querySelector("quote");
+  let quote.innerHTML = `https://andruxnet-random-famous-quotes.p.rapidapi.com/`;
+
 }
-
-
-let magnifyingGlassIcon = document.querySelector("#location-form");
-magnifyingGlassIcon.addEventListener("click", showQuote);
-
-
-
-
-
-var axios = require("axios").default;
-
-var options = {
-  method: "GET",
-  url: "https://andruxnet-random-famous-quotes.p.rapidapi.com/",
-  params: { count: "10", cat: "famous" },
-  headers: {
-    "x-rapidapi-host": "andruxnet-random-famous-quotes.p.rapidapi.com",
-    "x-rapidapi-key": "65e9cd2abfmsh32f37aa6ac80f07p1cd04ejsn52d808ec6ce4",
-  },
-};
-
-axios
-  .request(options)
-  .then(function (response) {
-    console.log(response.data);
-  })
-  .catch(function (error) {
-    console.error(error);
-  });
