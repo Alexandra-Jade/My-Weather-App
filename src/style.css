@@ -124,6 +124,8 @@ a:hover, a:visited, a:link, a:active {
 
 a {
   color: #5165d6;
+  cursor:default;
+
 }
 .cAndF {
   font-size: small;
@@ -146,6 +148,7 @@ text-decoration:none;
 text-decoration:none;
 }
 .F {
+cursor:default;
  color: black;
  text-decoration:none;
 }
