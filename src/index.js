@@ -167,9 +167,3 @@ h4.innerHTML = ` ${hours} : ${minutes}`;
 
 //quotes//
 
-function showQuote(event) {
-  console.log(event);
-  let quote = document.querySelector("quote");
-  let quote.innerHTML = `https://andruxnet-random-famous-quotes.p.rapidapi.com/`;
-
-}
