@@ -20,7 +20,7 @@ body {
   color: #5165d6;
   position: relative;
   left: 41%;
-  top: -52px;
+  top: -54px;
   transition: all 200ms ease-in-out;
 }
 
@@ -35,7 +35,7 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 10%;
-  margin: 2% auto;
+  margin: 1.9% auto;
   border-radius: 4px;
   box-shadow: 2px 2px 5px #4c58a7;
   border-color: #fae2d7;
@@ -58,7 +58,7 @@ body {
 
 .forecast-description {
   margin-left: -465px;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: -30px;
   font-size: 40px;
   color: #5165d6;
@@ -71,7 +71,7 @@ body {
   text-align: center;
   position: relative;
   margin: 0 auto;
-  margin-top: -120px;
+  margin-top: -70px;
 }
 
 .fa-map-marker-alt {
@@ -103,9 +103,9 @@ margin-top:25px;
 }
 .time {
   position: absolute;
-  margin-left: 195px;
+  margin-left: 200px;
   margin-top: 13px;
-  font-size: 13px;
+  font-size: 14px;
   color: #5165d6;
   font-weight: thin;
   transform: rotate(-270deg);
@@ -129,7 +129,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 a {
-  color: #5165d6;
+  color: #fae2d7;
   cursor:default;
 
 }
@@ -235,13 +235,13 @@ text-decoration:none;
 .align-items-center-row-emoji-day1 {
   text-align: left;
   margin-top: -330px;
-  margin-left: 3.5%;
+  margin-left: 3%;
 }
 
 .align-items-center-row-temp-day1 {
   position: relative;
   text-align: left;
-  margin-top: 3px;
+  margin-top: 1px;
   margin-left: 3.5%;
   font-size: 13px;
 }
@@ -249,8 +249,8 @@ text-decoration:none;
 .align-items-center-row-weekday-day1 {
   position: relative;
   text-align: left;
-  margin-top: 3px;
-  margin-left: 3.5%;
+  margin-top: 2px;
+  margin-left: -2.4%;
   margin-bottom: 20px;
   font-size: 12px;
 }
@@ -259,16 +259,16 @@ text-decoration:none;
 .align-items-center-row-emoji-day2 {
   position: relative;
   text-align: left;
-  margin-top: 10px;
-  margin-left: 3.5%;
+  margin-top: 30px;
+  margin-left: -540px;
   width:42px;
 }
 
 .align-items-center-row-temp-day2 {
   position: relative;
   text-align: left;
-  margin-top: 3px;
-  margin-left: 3.5%;
+  margin-top: 70px;
+  margin-left: -5.5%;
   font-size: 13px;
 }
 
@@ -276,7 +276,7 @@ text-decoration:none;
   position: relative;
   text-align: left;
   margin-top: 3px;
-  margin-left: 3.5%;
+  margin-left: -2.5%;
   margin-bottom: 20px;
   font-size: 12px;
 }
@@ -284,7 +284,7 @@ text-decoration:none;
 .emoji-futureday {
   text-align: left;
   margin-top: 0px;
-  margin-left: 3.5%;
+  margin-left: 0%;
   padding-top: 0px;
 }
 
@@ -292,7 +292,7 @@ text-decoration:none;
   position: relative;
   text-align: left;
   margin-top: 0px;
-  margin-left: 3.5%;
+  margin-left: 0%;
   font-size: 13px;
 }
 
@@ -300,9 +300,22 @@ text-decoration:none;
   position: relative;
   text-align: left;
   margin-top: 0px;
-  margin-left: 3.5%;
+  margin-left: 0%;
   font-size: 12px;
 }
+
+.forecast-temp-min, .forecast-temp-min2, .forecast-temp-min3, .forecast-temp-min4, .forecast-temp-min5 {
+    opacity: 0.3;
+}
+
+.weather-forecast-temperature-min {
+      opacity: 0.4; 
+}
+
+.weather-forecast-date {
+    font-size: 12px;
+}
+
 
 .iconpurple {
   position: absolute;
@@ -324,7 +337,7 @@ text-decoration:none;
   font-family: arial, sans-serif;
   font-size: 10px;
   color: #fceae6;
-  margin-top: -13px;
+  margin-top: 0px;
 }
 .footerCoder {
   color: #fceae6;
