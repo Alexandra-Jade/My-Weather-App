@@ -63,12 +63,7 @@ function showTemperature(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  document.querySelector("#high-Temp").innerHTML = Math.round(
-    response.data.main.temp_max
-  );
-  document.querySelector("#low-Temp").innerHTML = Math.round(
-    response.data.main.temp_min
-  );
+
   document.querySelector("#weather-Description").innerHTML =
     response.data.weather[0].main;
   document.querySelector("#wind-Speed").innerHTML = Math.round(
@@ -170,7 +165,7 @@ h4.innerHTML = ` ${hours} : ${minutes}`;
 function formatDay(timestamp) {
   let date = new Date(timestamp * 1000);
   let day = date.getDay();
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 
   return days[day];
 }
@@ -183,7 +178,7 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
-    if (index < 3) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `

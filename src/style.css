@@ -39,7 +39,6 @@ body {
   border-radius: 4px;
   box-shadow: 2px 2px 5px #4c58a7;
   border-color: #fae2d7;
-
   width: 100%;
 }
 .card-body {
@@ -74,23 +73,6 @@ body {
   margin-top: -130px;
 }
 
-.fa-map-marker-alt {
-    padding: 0px;
-margin-top:25px;
-}
-
-
-.locationIcon {
-  position: relative;
-  text-shadow: 2px 2px 5px #c9896b;
-  color: #fceae6;
-  font-size: 30px;
-  left: 0px;
-  margin-top: -100px;
-  margin-bottom: 20px;
-  padding-bottom: 30px;
-  z-index: 1;
-}
 
 .Day-Month {
   position: absolute;
@@ -103,7 +85,7 @@ margin-top:25px;
 }
 .time {
   position: absolute;
-  margin-left: 200px;
+  margin-left: 190px;
   margin-top: 13px;
   font-size: 14px;
   color: #5165d6;
@@ -115,7 +97,7 @@ margin-top:25px;
 
 .todays-temp {
   position: absolute;
-  margin-top: -70px;
+  margin-top: -60px;
   left: 67.5%;
   text-shadow: 2px 2px 5px #462f24;
   color: #faede8;
@@ -136,20 +118,22 @@ a {
 .cAndF {
   font-size: small;
   position: absolute;
-  margin-top: 198px;
-  margin-left: -135px;
+  margin-top: -25px;
+  font-size: 28px;
+  margin-left: 235px;
   z-index: 1;
 
 }
 
 .C {
-color: black;
+color: #000;
 cursor:default;
 text-decoration:none;
+
 }
 
 .C:hover {
-     color: black;
+     color: #5165d6;
 
 text-decoration:none;
 }
@@ -157,24 +141,47 @@ text-decoration:none;
 cursor:default;
  color: black;
  text-decoration:none;
+
 }
 
 .F:hover {
-color:black;
+color:#5165d6;
 text-decoration:none;
 }
 
 
-.forecast {
+.humidityAndWindBox {
   position: absolute;
   margin-left: 115px;
-  margin-top: 180px;
+  margin-top: 120px;
+  font-size: 12px;
+  color: #000;
+}
+
+.humidity {
+padding:3.5px;
+}
+
+#humidity {
+    color:#5165d6
+}
+
+.humidityPercentage {
+color:#5165d6
+}
+
+.wind-Speed-Percentage {
+color:#5165d6
+}
+
+#wind-Speed {
+color:#5165d6
 }
 
 .rounded-1 {
   position: relative;
   box-shadow: 2px 2px 5px #4c58a7;
-  margin-top: 15px;
+  margin-top: 25px;
   left: 28%;
 }
 
@@ -209,25 +216,10 @@ text-decoration:none;
   z-index: 1;
 }
 
-.humidity {
-  position: relative;
-  margin-top: 31px;
-  margin-left: 330px;
-  font-size: 14px;
-  z-index: 1;
-}
-
-.wind-speed {
-  margin-top: 2px;
-  margin-left: 315px;
-  font-size: 14px;
-  z-index: 1;
-}
-
 .air-quality-index {
   position: relative;
   margin-top: -48px;
-  margin-left: 450px;
+  margin-left: 00px;
   font-size: 10px;
   z-index: 1;
 }
@@ -288,7 +280,9 @@ text-decoration:none;
 }
 
 .weather-forecast-temperature-min {
-      opacity: 0.4; 
+      opacity: 0.4;
+        color: #5165d6;
+       
 }
 
 .weather-forecast-date {
@@ -302,14 +296,14 @@ text-decoration:none;
 .iconpurple {
   position: absolute;
   color: #5165d6;
-  width: 50px;
-  margin-left: -255px;
-  margin-top: -315px;
+  width: 80px;
+  margin-left: -265px;
+  margin-top: -330px;
 }
 
 .iconpink {
   position: absolute;
-  margin-top: -39px;
+  margin-top: -29px;
   margin-left: 10px;
   width: 125px;
 }

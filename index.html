@@ -44,10 +44,7 @@
    class="forecast-description" >
    <span class="hey">  </span>  
    <span class="sunshine" id="weather-Description">  <br> 
-     <span>
-   
-   
-   
+  <span>
    </h1>
 
    
@@ -74,14 +71,21 @@
 
 <img class="iconpurple" src="Icons/sunnypurple.png" id="iconElement" alt=""  >
 
-<div class="forecast" id="quotes" style="width:100px;height:55px;border:1px solid #000;">
-
+<div class="humidityAndWindBox" id="quotes" style="width:100px;height:50px;border:1px solid #000; opacity: 0.7;"> 
+<div class="humidity">
+        <span> Humidity:</span> 
+        <span id="humidity"></span><span class= "humidityPercentage">%</span>
+       
+    </div>  
+     <p class="wind-speed">
+         <span>Wind:</span>
+         <span id="wind-Speed"></span><span class="wind-Speed-Percentage">km/h</span>
 </div>
 <div class="todays-temp" id="temperature"> 
   </div>
 <span class="cAndF">
     <a href="#" class="C" id="celsius-link">°C</a>
-    <span>|</span> 
+    <span></span> <div></div>
     <a href="#" class="F" id="fahrenheit-link">°F</a> 
   </span> 
   <div/>  
@@ -90,62 +94,12 @@
 <div id="images">
 <img src="https://i.pinimg.com/474x/4e/9c/cb/4e9ccbfe24383d20ebd9d97d5a359ab0.jpg" class="rounded-1" id="picture-link" alt="120mmfilmcamerashots" style="width:150px" >
 
-  <div>
-<div class="high-temperature-word" > 
-         High  <br/>
-</div>  
-<div class="high-temperature-degree" id="high-Temp" > ↑
-    </div>
- <p class="low-temperature-word">
-        Low<br/>
- </p>
- <div class="low-temperature-degree" id="low-Temp" > ↓ </div>
-</div>
 
-<div>
-    <div class="humidity">
-        <span> Humidity:</span> 
-        <span id="humidity"></span><span>%</span>
-       
-    </div>  
-     <p class="wind-speed">
-         <span>Wind:</span>
-         <span id="wind-Speed"></span><span>km/h</span>
+</br>
+</br>
 
-     </p>
-    </div>
-   
-    </div>  
-     
-     </p>
-    </div>
  
        
-    
-    <br/> <br/>
-   <div class="row align-items-center-row-emoji-day1">
-        <div class="col-md-12"> <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather-emoji" width="42"/> </div>
-    </div>
-    <div class="row align-items-center-row-temp-day1 ">
-        <div class="col-md-12"><span class="forecast-temp-max">24°</span>
-        <span class="forecast-temp-min2">13°</span>
-        </div>
-    <div class="row align-items-center-row-weekday-day1">
-        <div class="col-md-12">Sunday</div>
-    </div>
-
-    <div class="row align-items-center-row-emoji-day2">
-        <div class="col-md-12"><img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-emoji" width="42"/> </div>
-    </div>
-    <div class="row align-items-center-row-temp-day2">
-        <div class="col-md-12"><span class="forecast-temp-max2">28°</span>
-        <span class="forecast-temp-min2">18°</span>
-        </div>
-    </div>
-    <div class="row align-items-center-row-weekday-day2">
-        <div class="col-md-12">Monday</div>
-    </div>
-    
 
     <div class="container"></div>
         <div class="weather-forecast" id="forecast"></div>    
