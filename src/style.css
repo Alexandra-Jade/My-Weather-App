@@ -35,7 +35,7 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 10%;
-  margin: 1.9% auto;
+  margin: 2.9% auto;
   border-radius: 4px;
   box-shadow: 2px 2px 5px #4c58a7;
   border-color: #fae2d7;
@@ -319,7 +319,7 @@ text-decoration:none;
   font-family: arial, sans-serif;
   font-size: 10px;
   color: #fceae6;
-  margin-top: 0px;
+  margin-top: -20px;
 }
 .footerCoder {
   color: #fceae6;
