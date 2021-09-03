@@ -9,6 +9,9 @@ function convertToFahrenheit(event) {
 
   let fahrenheiTemperature = (celsiusTemperature * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheiTemperature);
+  
+
+
 }
 
 function convertToCelsius(event) {
@@ -209,6 +212,10 @@ function displayForecast(response) {
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
+
+
+
+
 
 function getForecast(coordinates) {
   console.log(coordinates);
