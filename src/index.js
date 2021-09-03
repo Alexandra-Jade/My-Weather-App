@@ -66,7 +66,7 @@ function showTemperature(response) {
 
   document.querySelector("#weather-Description").innerHTML =
     response.data.weather[0].main;
-  document.querySelector("#wind-Speed").innerHTML = Math.round(
+  document.querySelector("#wind-Speed").innerHTML = (
     response.data.wind.speed
   );
   document.querySelector("#humidity").innerHTML = Math.round(
