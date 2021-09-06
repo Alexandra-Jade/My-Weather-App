@@ -35,7 +35,7 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 10%;
-  margin: 2.9% auto;
+  margin: 1.9% auto;
   border-radius: 4px;
   box-shadow: 2px 2px 5px #4c58a7;
   border-color: #fae2d7;
@@ -78,16 +78,16 @@ body {
   position: absolute;
   color: #37342f;
   text-align: left;
-  margin-left: 6%;
-  margin-top: 60px;
+  margin-left: 8%;
+  margin-top: 177px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 17px;
 }
 .time {
   position: absolute;
-  margin-left: 190px;
-  margin-top: 13px;
-  font-size: 14px;
+  margin-left: 240px;
+  margin-top: 178px;
+  font-size: 15px;
   color: #37342f;
   font-weight: thin;
   transform: rotate(-270deg);
@@ -111,8 +111,9 @@ a:hover, a:visited, a:link, a:active {
 }
 
 a {
-  color: #fae2d7;
+  color: #f7cab3;
   cursor:default;
+  
 
 }
 .cAndF {
@@ -150,16 +151,19 @@ text-decoration:none;
 }
 
 
-.humidityAndWindBox {
+.dateBox {
+  padding: 8px;
   position: absolute;
-  margin-left: 60px;
-  margin-top: 110px;
-  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 80px;
+
   color: #000;
 
 }
 
 .humidity {
+font-size: 11.5px;
+margin-left: 0px;
 padding:3.5px;
 }
 
@@ -168,6 +172,7 @@ padding:3.5px;
 }
 
 .humidityPercentage {
+   
 color:#5165d6
 }
 
@@ -286,9 +291,9 @@ color:#5165d6
 .iconpurple {
   position: absolute;
   color: #5165d6;
-  width: 80px;
+  width: 85px;
   margin-left: -265px;
-  margin-top: -330px;
+  margin-top: -360px;
 }
 
 .iconpink {
@@ -303,7 +308,7 @@ color:#5165d6
   font-family: arial, sans-serif;
   font-size: 10px;
   color: #fceae6;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .footerCoder {
   color: #fceae6;
@@ -316,8 +321,9 @@ font-weight: bold;
 }
 
 .weather-forecast-date {
-color:#83817e; 
+color:#3a393a; 
 font-weight:bold;
 font-size: 13px;
 opacity: 0.6;
 }
+

@@ -50,7 +50,7 @@
    
   <h2 
   class="square" 
-  style="width:170px;height:170px;border:1px solid #000;">
+  style="width:170px;height:170px;border:2px solid #000; border-radius: 2.5px;">
   <br/> 
   <i class="fas fa-map-marker-alt "> </i>
   <br/>
@@ -59,28 +59,29 @@
         
   <h3 class="Day-Month" > Saturday, August 14
   </h3>
-  <br/>
-  <br/>
-
   
+
   <h4 class="time"> 
     15:45 
   </h4>
 
-
-
-<img class="iconpurple" src="Icons/sunnypurple.png" id="iconElement" alt=""  >
-
-<div class="humidityAndWindBox" id="quotes" style="width:100px;height:50px;border:1px solid #37342f; opacity: 0.8;"> 
-<div class="humidity">
+  <div class="humidity">
         <span> Humidity:</span> 
-        <span id="humidity"></span><span class= "humidityPercentage">%</span>
+        <span id="humidity"></span><span class= "humidityPercentage">%,</span>
        
-    </div>  
-     <p class="wind-speed">
+    
+     <span class="wind-speed">
          <span>Wind:</span>
          <span id="wind-Speed"></span><span class="wind-Speed-Percentage">km/h</span>
-</div>
+     </span>
+</div>  
+<br/>
+<br/>
+<img class="iconpurple" src="Icons/sunnypurple.png" id="iconElement" alt=""  >
+
+<div class="dateBox" id="quotes" style="width:250px;height:70px;border:2px solid #000; border-radius: 2.5px; "> 
+
+  </div>
 <div class="todays-temp" id="temperature"> 
   </div>
 <span class="cAndF">
@@ -95,14 +96,11 @@
 <img src="https://i.pinimg.com/474x/4e/9c/cb/4e9ccbfe24383d20ebd9d97d5a359ab0.jpg" class="rounded-1" id="picture-link" alt="120mmfilmcamerashots" style="width:150px" >
 
 
-</br>
-</br>
-</br>
+</br></br>
 
+
+<div class="container"></div>
  
-       
-
-    <div class="container"></div>
         <div class="weather-forecast" id="forecast"></div>    
           </div>                  
         <script src="src/index.js"></script>
