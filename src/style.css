@@ -111,36 +111,36 @@ a:hover, a:visited, a:link, a:active {
 }
 
 a {
-  color: #f7cab3;
-  cursor:default;
+color: #37342f;
+cursor:default;
   
 
 }
 .cAndF {
   font-size: small;
   position: absolute;
-  margin-top: -25px;
+  margin-top: 125px;
   font-size: 28px;
-  margin-left: 235px;
+  margin-left: 195px;
   z-index: 1;
 
 }
 
 .C {
-color: #37342f;
+color: #fae2d7;
 cursor:default;
 text-decoration:none;
 
 }
 
 .C:hover {
-     color: #5165d6;
+color: #5165d6;
 
 text-decoration:none;
 }
 .F {
 cursor:default;
- color: #37342f;
+ color: #fae2d7;
  text-decoration:none;
 
 }
@@ -156,7 +156,6 @@ text-decoration:none;
   position: absolute;
   margin-left: 30px;
   margin-top: 80px;
-
   color: #000;
 
 }
